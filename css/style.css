@@ -181,6 +181,11 @@ header .address {
   margin-right: 30px;
 }
 
+.navigation-menu-link,
+.header-contacts-link {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* ========= Hero ========= */
 
 .hero-heading {
@@ -411,6 +416,8 @@ header .address {
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon {
@@ -462,6 +469,8 @@ header .address {
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-yago {
@@ -497,6 +506,8 @@ header .address {
 .symbol {
   fill: #afb1b8;
   display: block;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-link:hover .symbol,
@@ -608,6 +619,8 @@ header .address {
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters-button:hover,
@@ -676,6 +689,10 @@ header .address {
 
 .projects-box:nth-child(-n + 3) {
   margin-top: 0px;
+}
+
+.projects-link {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .border {
