@@ -729,3 +729,33 @@ header .address {
   width: 370px;
   height: 294px;
 }
+
+.overlay {
+  padding: 63px 24px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+}
+
+.projects-cover-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects-link:hover .overlay {
+  transform: translateY(0%);
+}
