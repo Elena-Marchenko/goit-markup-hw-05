@@ -54,6 +54,18 @@
                     <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
                 </div>
             </section>
+
+            <!-- Модальное окно -->
+
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="modal-button" data-modal-close>
+                        <svg class="modal-icon">
+                            <use href="./image/sprite.svg#icon-Vector"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
             
             <!-- Особенности-->
             <section class="section-features">
@@ -385,15 +397,7 @@
                 </div>
             </section>
         </footer>
-        <div class="backdrop i-hidden" data-modal>
-            <div class="modal">
-                <button class="modal-button" data-modal-close>
-                        <svg class="modal-icon">
-                            <use href="./image/sprite.svg#icon-Vector"></use>
-                        </svg>
-                </button>
-            </div>
-        </div>
+        
         <script src="./js/modal.js"></script>
     </body>
 </html>

@@ -297,6 +297,7 @@ header .address {
 
   margin-bottom: 30px;
   width: 270px;
+  padding: 25px 100px 25px 100px;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -807,6 +808,7 @@ header .address {
   min-width: 30px;
   min-height: 30px;
   display: block;
+  padding: 6px 6px;
   margin-left: auto;
 
   background: #ffffff;
