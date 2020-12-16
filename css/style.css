@@ -336,6 +336,28 @@ header .address {
   margin-bottom: 94px;
 }
 
+.photo-list {
+  position: relative;
+}
+
+.photo-list-text {
+  width: 100%;
+  padding: 27px 82px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+
+  position: absolute;
+  bottom: 0;
+}
+
 /* ========= team ========= */
 
 .team-name,
