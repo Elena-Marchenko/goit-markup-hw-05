@@ -183,7 +183,9 @@ header .address {
 
 .navigation-menu-link,
 .header-contacts-link {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ========= Hero ========= */
@@ -501,7 +503,9 @@ header .address {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 44px;
   height: 44px;
@@ -554,7 +558,9 @@ header .address {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 170px;
   height: 90px;
@@ -597,7 +603,9 @@ header .address {
   fill: #afb1b8;
   display: block;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-link:hover .symbol,
@@ -608,7 +616,6 @@ header .address {
 .clients-list-link:hover,
 .clients-list-link:focus {
   border: 1px solid #2196f3;
-  border-radius: 4px;
 }
 
 /* ========= Footer ========= */
@@ -781,12 +788,6 @@ header .address {
 
 .projects-box:nth-child(-n + 3) {
   margin-top: 0px;
-}
-
-.projects-link {
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .border {
