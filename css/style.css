@@ -806,7 +806,7 @@ header .address {
   left: 0;
   width: 100%;
   height: 100%;
-  transition-property: background-color;
+  transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
